@@ -5,12 +5,68 @@
         <meta charset="UTF-8">
         <title>Bootstrap Components</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
       </head>
+     
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto flex-nowrap">          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data</a>
+            </li>
+           
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">QSS</h1>
-      <p class="lead">Quora Secondary School.</p>
-    </div>
-  </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <body>
+
+
+      <div class="container pt-3">
+        <!--Normally these medium columns go full wide on small screen sizes-->
+        <div class="row">
+          <div class="col-sm-1">
+            <div class="box">margin</div>
+          </div>
+
+          <div class="col-md-4">
+            <p>
+              <img src="Resources/assets/images/Fig1.png" class="img-thumbnail float-left mr-2 mb-1"  > </div>
+              "to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.3(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsu"
+            </p>
+          </div>
+
+          <div class="col-md-2">
+            <div class="box skyblue">divider</div>
+          </div>
+          <div class="col-md-4">
+            <div class="box skyblue">col-md-4</div>
+          </div>
+          <div class="col-md-1">
+            <div class="box skyblue">margin</div>
+          </div>
+        </div>
+      </div>
+    
+
+    </body>
+
+</html>
