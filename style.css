@@ -11,49 +11,49 @@ body {
   font-weight: 900;
   }
  
-  .btn {
-    font-family: 'Georgia', serif;
-    background-color:#39729e;
-    color:white;
-    font-weight: 900;
-    }
-
-  .nav-link {
-    font-family: 'Georgia', serif;
-    color: black
-
-  }
-  .table-responsive {
-    font-family: 'Georgia', serif;
-    color: black
-
+.btn {
+  font-family: 'Georgia', serif;
+  background-color:#39729e;
+  color:white;
+  font-weight: 900;
   }
 
-  h2 {
-    font-family: 'Georgia', serif;
-    color:#39729e;
-    font-weight: 800;
+.nav-link {
+  font-family: 'Georgia', serif;
+  color: black
+
+}
+.table-responsive {
+  font-family: 'Georgia', serif;
+  color: black
+
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  color:#39729e;
+  font-weight: 800;
+}
+
+h4 {
+  font-family: 'Georgia', serif;
+  color:#39729e;
+  font-weight: 800;
+}
+
+h6 {
+  font-family: 'Georgia', serif;
+  color:black
+}
+
+.button {
+  font-family: 'Georgia', serif;
+  background-color:#39729e
+}
+nav .navbar-nav li a{
+  color: black !important;
   }
 
-  h4 {
-    font-family: 'Georgia', serif;
-    color:#39729e;
-    font-weight: 800;
+.col-sm-7 {
+    float: left;
   }
-
-  h6 {
-    font-family: 'Georgia', serif;
-    color:black
-  }
-
-  .button {
-    font-family: 'Georgia', serif;
-    background-color:#39729e
-  }
-  nav .navbar-nav li a{
-    color: black !important;
-    }
-
-    .col-sm-7 {
-      float: left;
-    }
